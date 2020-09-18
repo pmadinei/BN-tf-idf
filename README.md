@@ -16,7 +16,7 @@ Here we apply both algorythms in order to predict 3 types of news based on their
 ## Dataset
 The dataset for training and validation is available [HERE](https://github.com/pmadinei/BN-tf-idf/blob/master/Docs/data.csv)
 The dataset for testing is available [HERE](https://github.com/pmadinei/BN-tf-idf/blob/master/Docs/test.csv)
-The output of implemented model with the accuracy of 95% is provided [HERE](https://github.com/pmadinei/BN-tf-idf/blob/master/Docs/output.csv)
+The output of implemented model with the accuracy of 84% is provided [HERE](https://github.com/pmadinei/BN-tf-idf/blob/master/Docs/output.csv)
 
 # Requirement
 * Python > 3.7
