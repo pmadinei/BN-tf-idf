@@ -12,3 +12,33 @@ A bag-of-words is a representation of text that describes the occurrence of word
 It is called a “bag” of words, because any information about the order or structure of words in the document is discarded. The model is only concerned with whether known words occur in the document, not where in the document.
 
 Here we apply both algorythms in order to predict 3 types of news based on their description and headline.
+
+## Dataset
+The dataset for training and validation is available [HERE](https://github.com/pmadinei/BN-tf-idf/blob/master/Docs/data.csv)
+The dataset for testing is available [HERE](https://github.com/pmadinei/BN-tf-idf/blob/master/Docs/test.csv)
+The output of implemented model with the accuracy of 95% is provided [HERE](https://github.com/pmadinei/BN-tf-idf/blob/master/Docs/output.csv)
+
+# Requirement
+* Python > 3.7
+* Jupyter Notebook
+* PyTorch 1.6.0
+* NLTK 3.5
+* Numpy 1.19
+* Pandas 1.1.2
+* Matplotlib 3.3.2
+
+# Implementation and Results
+The project has been splited to two different phase. In both phases, the formula of BAYESIAN-NETWORKS implemented for word counting and classifications.
+
+![BAyesian nets Formula](https://github.com/pmadinei/BN-tf-idf/blob/master/Docs/Bayesian%20Formula.png)
+
+During the phase 1, the model learns to differ the cattegory of "Business News" from "Travel News" by using preprocessed news' descriptions and titles. The algorythm implied was the Bag of words and TF-IDF. The result have shown bellow:
+
+![Phase1](https://github.com/pmadinei/BN-tf-idf/blob/master/Docs/Phase1%20Result.png)
+
+In Phase2, the model tried to predict 3 classes of news all together. Consequently, the classification scores and the confusion matrix are illustrated in the following:
+
+![Phase2](https://github.com/pmadinei/BN-tf-idf/blob/master/Docs/Phase2%20Result.png)
+![Phase2_CM](https://github.com/pmadinei/BN-tf-idf/blob/master/Docs/Phase2%20CM.png)
+
+Moreover, You can see all reports and code in jupyter notebook in eithor [HERE](https://github.com/pmadinei/BN-tf-idf/blob/master/Bayesian%20Nets%20for%20TF-IDF.ipynb) as ipynb or [HERE](https://github.com/pmadinei/BN-tf-idf/blob/master/Docs/Report.html) as HTML in your local computer.
