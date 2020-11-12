@@ -46,7 +46,7 @@ Here we first find the probabilities for each category, and then make copy of ra
 ### SMOT Oversampeling: 
 I used SMOT Oversampling; wich is The most naive strategy and it is to generate new samples by randomly sampling with replacement the current available samples. And at last, I updated indexes to have ordinarily and unique index numbers.
 
-# Results
+# Result
 During the phase 1, the model learns to differ the cattegory of "Business News" from "Travel News" by using preprocessed news' descriptions and titles. The algorythm implied was the Bag of words and TF-IDF. The result have shown bellow:
 
 ![Phase1](https://github.com/pmadinei/BN-tf-idf/blob/master/Docs/Phase1%20Result.png)
