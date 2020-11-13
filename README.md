@@ -58,7 +58,7 @@ In Phase2, the model tried to predict 3 classes of news all together. Consequent
 
 Moreover, You can see all reports and code in jupyter notebook in eithor [HERE](https://github.com/pmadinei/BN-tf-idf/blob/master/Bayesian%20Nets%20for%20TF-IDF.ipynb) as ipynb or [HERE](https://github.com/pmadinei/BN-tf-idf/blob/master/Docs/Report.html) as HTML in your local computer.
 
-# Questions & Discussion
+# Discussion
 
 1- tf–idf or TFIDF is the short for term frequency–inverse document frequency. It is a numerical statistic that is intended to reflect how important a word is to a document in a collection or corpus. It is often used as a weighting factor in searches of information retrieval, text mining, and user modeling. The tf–idf value increases proportionally to the number of times a word appears in the document and is offset by the number of documents in the corpus that contain the word, which helps to adjust for the fact that some words appear more frequently in general. tf–idf is one of the most popular term-weighting schemes today. As a matter of fact we used the described approach in our model. Previousley on the main preprocess code section, I tried to make the words for each dictionary unique and one in whole (by transform it to set and then bringing back to list again). using this Technique (adding repeated words) improved our model accuracy over 10 percent.
 
