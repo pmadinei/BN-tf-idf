@@ -43,7 +43,7 @@ The best approach for this project though is stemming approach. Because here we 
 
 ## Category Probabilities and Oversampeling
 Here we first find the probabilities for each category, and then make copy of random rows in order to have rows in the level of 9000. This could prevent our model from differing accuracies along with three categories and reduces accuracy diffrence between 3 types.
-### SMOT Oversampeling: 
+## SMOT Oversampeling: 
 I used SMOT Oversampling; wich is The most naive strategy and it is to generate new samples by randomly sampling with replacement the current available samples. And at last, I updated indexes to have ordinarily and unique index numbers.
 
 # Result
